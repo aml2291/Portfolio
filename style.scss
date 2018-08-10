@@ -1,16 +1,31 @@
 html {
   /* Fonts */
+  font-family: 'Lato', sans-serif;
   font-family: 'Cardo', serif;
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+// NAV BAR STYLE
+header {
+  background-color: #19142B;
+}
+.nav-style {
+  color: #CFDDE9;
+  font-family: 'Lato';
+}
+
+// MAIN HOME BODY STYLE
+.cardstyle {
+  background: #CFDDE9;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
 
 body{ 
   background:radial-gradient(200% 100% at bottom center,#19142B,#1e1e62,#48929A); 
   background-attachment:fixed; 
-  overflow:hidden;
-
 }
 @keyframes rotate{
   0%{
