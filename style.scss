@@ -4,6 +4,11 @@ html {
   font-family: 'Cardo', serif;
   font-size: 16px;
 }
+body{ 
+  // background:radial-gradient(200% 100% at bottom center,#19142B,#1e1e62,#48929A); 
+  // background-attachment:fixed; 
+  background-color: #ffffff;
+}
 
 // NAV BAR STYLE
 header {
@@ -11,22 +16,138 @@ header {
 }
 .nav-style {
   color: #CFDDE9;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 }
 
 // MAIN HOME BODY STYLE
-.cardstyle {
-  background: #CFDDE9;
+main {
+  padding: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  // border-left: 30px solid #FCB148;
 }
-.logos {
-  display: flex;
-  justify-content: space-around;
+main h1 {
+  font-family: 'Cardo', serif;
+} 
+
+.cardstyle {
+  // border-top: 2px solid #FCB148;
+  // border-bottom: 2px solid #FCB148;
+  color: #19142B;
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+  align-content: center
+
+  // font-family: 'Cardo';
+
+}
+.cardstyle h3 {
+  font-size: 1.15rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.cardstyle h1 {
+  font-family: 'Cardo', serif;
+  font-size: 2em;
+  padding: 5px;
+  text-align: center;
+}
+.text-card-style {
+  margin-left: 10px;
+  margin-right: 10px;
+//   max-width: 400px; 
+}
+.alternatecard {
+  background-color: #F7F6FF;
 }
 
-body{ 
-  background:radial-gradient(200% 100% at bottom center,#19142B,#1e1e62,#48929A); 
-  background-attachment:fixed; 
+.image-card-style {
+  padding: 5px;
 }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logos img {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  background: #FCB148;
+
+  color:#ffffff;
+  // box-shadow: 0 0 1px #19142B;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+  -webkit-transform: scale(1.1);
+  background: #363082;
+  color: #ffffff;
+}
+.btn-lg {
+  background-color: rgba( 0,0,0,0);
+  color: #19142B;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 5px solid #363082;
+  margin-bottom: 25px;
+}
+.btn-lg:hover {
+  background-color: #F7F6FF;
+  color: #19142B;
+}
+
+.seemore {
+
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  // background-color: #19142B;
+}
+.card-img-top{
+  height: 125px;
+  max-width: 100%;
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.research-cards {
+  margin-top: 50px;
+}
+.sectionhead img{
+  margin-top: 50px;
+  height: 50px;
+  width: auto;
+}
+.card-title {
+  font-family: "Cardo", serif;
+}
+.card {
+  background-color: #F7F6FF;
+  border: none;
+}
+.aboutme {
+  margin-top: 70px;
+}
+.aboutme h4{
+  font-family: "Cardo", serif;
+  font-size: 1.5em;
+  color: #363082;
+}
+#aboutimage {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @keyframes rotate{
   0%{
     transform:perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
@@ -110,4 +231,17 @@ body{
     max-width: 200px;
     padding-left: 20px;
 }
+}
+
+footer { 
+  background:radial-gradient(200% 100% at bottom center,#1e1e62,#48929A); 
+  background-attachment:fixed; 
+  color: #CFDDE9;
+  padding: 15px;
+  font-family: "Cardo", serif;
+  font-size: 1.15em;
+}
+.footerlogo {
+  display: flex;
+  justify-content: flex-end;
 }

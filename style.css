@@ -4,23 +4,126 @@ html {
   font-family: 'Cardo', serif;
   font-size: 16px; }
 
+body {
+  background-color: #ffffff; }
+
 header {
   background-color: #19142B; }
 
 .nav-style {
   color: #CFDDE9;
-  font-family: 'Lato'; }
+  font-family: 'Lato', sans-serif; }
+
+main {
+  padding: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em; }
+
+main h1 {
+  font-family: 'Cardo', serif; }
 
 .cardstyle {
-  background: #CFDDE9; }
+  color: #19142B;
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+  align-content: center; }
+
+.cardstyle h3 {
+  font-size: 1.15rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.cardstyle h1 {
+  font-family: 'Cardo', serif;
+  font-size: 2em;
+  padding: 5px;
+  text-align: center; }
+
+.text-card-style {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.alternatecard {
+  background-color: #F7F6FF; }
+
+.image-card-style {
+  padding: 5px; }
 
 .logos {
   display: flex;
-  justify-content: space-around; }
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
-body {
-  background: radial-gradient(200% 100% at bottom center, #19142B, #1e1e62, #48929A);
-  background-attachment: fixed; }
+.logos img {
+  padding: 10px; }
+
+.btn {
+  padding: 10px;
+  background: #FCB148;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease-in-out; }
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  background: #363082;
+  color: #ffffff; }
+
+.btn-lg {
+  background-color: transparent;
+  color: #19142B;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 5px solid #363082;
+  margin-bottom: 25px; }
+
+.btn-lg:hover {
+  background-color: #F7F6FF;
+  color: #19142B; }
+
+.seemore {
+  padding: 30px;
+  display: flex;
+  justify-content: center; }
+
+.card-img-top {
+  height: 125px;
+  max-width: 100%;
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.research-cards {
+  margin-top: 50px; }
+
+.sectionhead img {
+  margin-top: 50px;
+  height: 50px;
+  width: auto; }
+
+.card-title {
+  font-family: "Cardo", serif; }
+
+.card {
+  background-color: #F7F6FF;
+  border: none; }
+
+.aboutme {
+  margin-top: 70px; }
+
+.aboutme h4 {
+  font-family: "Cardo", serif;
+  font-size: 1.5em;
+  color: #363082; }
+
+#aboutimage {
+  margin-left: auto;
+  margin-right: auto; }
 
 @keyframes rotate {
   0% {
@@ -84,5 +187,16 @@ body {
   .namebox img {
     max-width: 200px;
     padding-left: 20px; } }
+footer {
+  background: radial-gradient(200% 100% at bottom center, #1e1e62, #48929A);
+  background-attachment: fixed;
+  color: #CFDDE9;
+  padding: 15px;
+  font-family: "Cardo", serif;
+  font-size: 1.15em; }
+
+.footerlogo {
+  display: flex;
+  justify-content: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
