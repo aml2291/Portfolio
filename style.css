@@ -114,16 +114,20 @@ main h1 {
   border: none; }
 
 .aboutme {
-  margin-top: 70px; }
+  margin-top: 70px;
+  text-align: center; }
 
 .aboutme h4 {
   font-family: "Cardo", serif;
   font-size: 1.5em;
-  color: #363082; }
+  color: #363082;
+  text-align: left; }
 
-#aboutimage {
-  margin-left: auto;
-  margin-right: auto; }
+.aboutme p {
+  text-align: left; }
+
+.aboutimage {
+  text-align: center; }
 
 @keyframes rotate {
   0% {
@@ -185,8 +189,49 @@ main h1 {
     margin-right: 0px; }
 
   .namebox img {
-    max-width: 200px;
-    padding-left: 20px; } }
+    max-width: 200px; }
+
+  #uximg {
+    width: 350px; }
+
+  .cardstyle {
+    padding: 0px;
+    padding-bottom: 20px; }
+
+  .logos img {
+    padding: 5px; }
+
+  .image-card-style {
+    padding-top: 25px; }
+
+  .cardstyle img {
+    max-height: 190px; }
+
+  .aboutme img {
+    max-width: 250px;
+    height: auto; }
+
+  .namecopyright p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: .6em; }
+
+  .footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #FCB148; }
+
+  .footerlogo img {
+    padding: 0px;
+    border: 5px solid #FCB148;
+    height: 40px; }
+
+  .footerlogo a {
+    padding-right: 0px; } }
 footer {
   background: radial-gradient(200% 100% at bottom center, #1e1e62, #48929A);
   background-attachment: fixed;
@@ -211,5 +256,90 @@ footer {
 
 .footerlogo a {
   padding-right: 25px; }
+
+.portfoliohero {
+  background-image: url("Images/BCAT/markus-spiske-482453-unsplash.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
+  color: #ffffff; }
+
+.portfoliohero h1 {
+  font-family: 'Cardo', serif; }
+
+.portfoliohero h2 {
+  font-family: 'Lato', sans-serif; }
+
+.portfolio {
+  display: flex;
+  justify-content: center; }
+
+.portfoliomain {
+  background-color: #ffffff;
+  padding: 25px;
+  width: 100%;
+  align-content: center; }
+
+.portfoliomain h3 {
+  font-family: 'Cardo', serif;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.25rem; }
+
+.portfoliomain h4 {
+  font-family: 'Cardo', serif;
+  padding-top: 20px;
+  text-align: center; }
+
+.portfoliomain h5 {
+  font-family: 'Cardo', serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic; }
+
+.portfoliomain ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 0px; }
+
+.portfoliomain p {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.portfoliomain img {
+  width: 100%;
+  height: auto; }
+
+@media (min-width: 768px) {
+  .portfoliomain img {
+    width: 50%;
+    height: auto; } }
+.portfolioimage {
+  text-align: center; }
+
+.colorsection {
+  background-color: #F7F6FF;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#leftlist li {
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px; }
+
+.gallery {
+  display: flex;
+  align-content: center;
+  text-align: center; }
+
+.gallery img {
+  height: auto;
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */

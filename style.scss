@@ -5,8 +5,6 @@ html {
   font-size: 16px;
 }
 body{ 
-  // background:radial-gradient(200% 100% at bottom center,#19142B,#1e1e62,#48929A); 
-  // background-attachment:fixed; 
   background-color: #ffffff;
 }
 
@@ -24,22 +22,17 @@ main {
   padding: 50px;
   font-family: 'Lato', sans-serif;
   font-size: 1em;
-  // border-left: 30px solid #FCB148;
 }
 main h1 {
   font-family: 'Cardo', serif;
 } 
 
 .cardstyle {
-  // border-top: 2px solid #FCB148;
-  // border-bottom: 2px solid #FCB148;
   color: #19142B;
   margin: 40px;
   padding: 40px;
   text-align: center;
   align-content: center
-
-  // font-family: 'Cardo';
 
 }
 .cardstyle h3 {
@@ -57,7 +50,6 @@ main h1 {
 .text-card-style {
   margin-left: 10px;
   margin-right: 10px;
-//   max-width: 400px; 
 }
 .alternatecard {
   background-color: #F7F6FF;
@@ -83,7 +75,6 @@ main h1 {
   background: #FCB148;
 
   color:#ffffff;
-  // box-shadow: 0 0 1px #19142B;
   -webkit-transition: all 0.5s ease-in-out;
 }
 
@@ -107,11 +98,9 @@ main h1 {
 }
 
 .seemore {
-
   padding: 30px;
   display: flex;
   justify-content: center;
-  // background-color: #19142B;
 }
 .card-img-top{
   height: 125px;
@@ -137,16 +126,23 @@ main h1 {
 }
 .aboutme {
   margin-top: 70px;
+  text-align: center;
 }
 .aboutme h4{
   font-family: "Cardo", serif;
   font-size: 1.5em;
   color: #363082;
+  text-align: left;
 }
-#aboutimage {
-  margin-left: auto;
-  margin-right: auto;
+.aboutme p{
+  text-align: left;
 }
+.aboutimage {
+  text-align: center;
+  
+}
+
+// Star Hero Banner
 
 @keyframes rotate{
   0%{
@@ -171,7 +167,6 @@ main h1 {
   width:.5px;
   height:.5px;
   background:#FCB148;
-  //border-radius:100%;
   position:absolute;
   top:0;
   left:0;
@@ -199,17 +194,6 @@ main h1 {
   position: relative;	
 }
 
-// .flex-container-mountain {
-// 	display: flex;
-// 	justify-content: flex-end;
-// }
-// .flex-container-mountain > div {
-//   margin-top: 100px;
-// }
-// #mountain {
-// //   margin-top: 200px;
-// }
-
 .namebox {
 	display: flex;
 	justify-content: space-around;
@@ -229,9 +213,64 @@ main h1 {
   }
   .namebox img {
     max-width: 200px;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
+  #uximg {
+    width: 350px;
 }
+  .cardstyle {
+    padding: 0px;
+    // padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logos img {
+    padding: 5px;
+  }
+  .image-card-style {
+    padding-top: 25px;
+  }
+  .cardstyle img{
+    max-height: 190px;
+  }
+  .aboutme img {
+    max-width: 250px;
+    height: auto;
+  }
+  // footer {
+  //   background: #48929A;
+    
+  //   height: 1000px;
+  //   align-content: center;
+  // }
+  .namecopyright p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    // padding: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: .6em;
+  }
+  .footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #FCB148;
+  }
+  .footerlogo img {
+    padding: 0px;
+    border: 5px solid #FCB148;
+    height: 40px;
+  }
+ 
+  .footerlogo a {
+    padding-right: 0px;
+  }
+}
+
+
+
+// Footer
 
 footer { 
   background:radial-gradient(200% 100% at bottom center,#1e1e62,#48929A); 
@@ -258,3 +297,132 @@ footer {
 .footerlogo a {
   padding-right: 25px;
 }
+//Case study style
+.portfoliohero {
+  background-image: url("Images/BCAT/markus-spiske-482453-unsplash.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
+  color: #ffffff;
+}
+.portfoliohero h1 {
+  font-family: 'Cardo', serif;
+}
+.portfoliohero h2 {
+  font-family: 'Lato', sans-serif;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+.portfoliomain {
+  background-color: #ffffff;
+  padding: 25px;
+  width: 100%;
+  align-content: center;
+}
+.portfoliomain h3 {
+  font-family: 'Cardo', serif;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+.portfoliomain h4 {
+  font-family: 'Cardo', serif;
+  padding-top: 20px;
+  text-align: center;
+}
+.portfoliomain h5 {
+  font-family: 'Cardo', serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+}
+.portfoliomain ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 0px;
+}
+.portfoliomain p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.portfoliomain img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .portfoliomain img {
+  width: 50%;
+  height: auto;
+  }
+}
+.portfolioimage {
+  text-align: center;
+
+}
+.colorsection {
+  background-color: #F7F6FF;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.partition {
+
+}
+
+#leftlist li{
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+.gallery {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+.gallery img {
+  height: auto;
+  width: 80%
+}
+// .row {
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding: 0 4px;
+// }
+
+// /* Create four equal columns that sits next to each other */
+// .column {
+//   flex: 25%;
+//   max-width: 25%;
+//   padding: 0 4px;
+// }
+
+// .column img {
+//   margin-top: 8px;
+//   vertical-align: middle;
+
+// }
+
+// /* Responsive layout - makes a two column-layout instead of four columns */
+// @media screen and (max-width: 800px) {
+//   .column {
+//     flex: 50%;
+//     max-width: 50%;
+//   }
+// }
+
+// /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//   .column {
+//     flex: 100%;
+//     max-width: 100%;
+//   }
+// }
