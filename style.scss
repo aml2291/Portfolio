@@ -354,10 +354,14 @@ footer {
 }
 .portfoliomain li {
   margin-bottom: 10px;
+  font-size: .9em;
+  font-weight: 300;
 }
 .portfoliomain p {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: .9em;
+  font-weight: 300;
 }
 .portfoliomain img {
   width: 100%;
@@ -372,29 +376,42 @@ footer {
 }
 .portfolioimage {
   text-align: center;
-
 }
 .portfolioimage img {
   padding-bottom: 5px;
 }
+.portfoliobutton {
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.portfoliobutton button{
+  padding: 10px;
+}
 .colorsection {
   background-color: #F7F6FF;
   padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  // margin-bottom: 10px;
 }
 .section {
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
 
 }
 .projecthead {
   // border: 5px solid #CFDDE9;
   padding: 25px;
-  background: #F7F6FF;
+  // background: #F7F6FF;
   margin-top: 50px;
+  text-align: center;
 }
-
+.caption {
+  font-style: italic;
+  font-size: .8rem;
+  font-weight: 300;
+}
 
 #leftlist li{
   text-align: left;
@@ -411,4 +428,11 @@ footer {
 .gallery img {
   height: auto;
   width: 80%
+}
+// .summarysection {
+//   border: 3px solid #CFDDE9;
+//   padding: 10px;
+// }
+.summarysection h5 {
+  color: #363082;
 }
