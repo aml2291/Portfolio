@@ -282,20 +282,21 @@ footer {
 
 .portfoliomain h3 {
   font-family: 'Cardo', serif;
-  padding-top: 50px;
   text-align: center;
-  font-size: 2.25rem; }
+  font-size: 2.5rem; }
 
 .portfoliomain h4 {
   font-family: 'Cardo', serif;
-  padding-top: 20px;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #FCB148; }
 
 .portfoliomain h5 {
   font-family: 'Cardo', serif;
   padding-top: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic; }
 
 .portfoliomain ul {
@@ -304,6 +305,9 @@ footer {
   list-style-position: outside;
   margin: 0px;
   padding: 0px; }
+
+.portfoliomain li {
+  margin-bottom: 10px; }
 
 .portfoliomain p {
   padding-top: 10px;
@@ -320,11 +324,23 @@ footer {
 .portfolioimage {
   text-align: center; }
 
+.portfolioimage img {
+  padding-bottom: 5px; }
+
 .colorsection {
   background-color: #F7F6FF;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 10px; }
+
+.section {
+  padding: 20px;
+  margin-top: 50px; }
+
+.projecthead {
+  padding: 25px;
+  background: #F7F6FF;
+  margin-top: 50px; }
 
 #leftlist li {
   text-align: left;

@@ -323,21 +323,26 @@ footer {
 }
 .portfoliomain h3 {
   font-family: 'Cardo', serif;
-  padding-top: 50px;
+  
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
+  // font-weight: 600;
 }
 
 .portfoliomain h4 {
   font-family: 'Cardo', serif;
-  padding-top: 20px;
+  // margin-top: 50px;
   text-align: center;
+  font-size: 2rem;
+ 
+  text-decoration: underline;
+  text-decoration-color: #FCB148;
 }
 .portfoliomain h5 {
   font-family: 'Cardo', serif;
   padding-top: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic;
 }
 .portfoliomain ul {
@@ -346,6 +351,9 @@ footer {
   list-style-position: outside;
   margin: 0px;
   padding: 0px;
+}
+.portfoliomain li {
+  margin-bottom: 10px;
 }
 .portfoliomain p {
   padding-top: 10px;
@@ -366,15 +374,27 @@ footer {
   text-align: center;
 
 }
+.portfolioimage img {
+  padding-bottom: 5px;
+}
 .colorsection {
   background-color: #F7F6FF;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
-.partition {
+.section {
+  padding: 20px;
+  margin-top: 50px;
 
 }
+.projecthead {
+  // border: 5px solid #CFDDE9;
+  padding: 25px;
+  background: #F7F6FF;
+  margin-top: 50px;
+}
+
 
 #leftlist li{
   text-align: left;
@@ -392,37 +412,3 @@ footer {
   height: auto;
   width: 80%
 }
-// .row {
-//   display: flex;
-//   flex-wrap: wrap;
-//   padding: 0 4px;
-// }
-
-// /* Create four equal columns that sits next to each other */
-// .column {
-//   flex: 25%;
-//   max-width: 25%;
-//   padding: 0 4px;
-// }
-
-// .column img {
-//   margin-top: 8px;
-//   vertical-align: middle;
-
-// }
-
-// /* Responsive layout - makes a two column-layout instead of four columns */
-// @media screen and (max-width: 800px) {
-//   .column {
-//     flex: 50%;
-//     max-width: 50%;
-//   }
-// }
-
-// /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-// @media screen and (max-width: 600px) {
-//   .column {
-//     flex: 100%;
-//     max-width: 100%;
-//   }
-// }
